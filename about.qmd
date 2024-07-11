@@ -1,7 +1,0 @@
----
-title: "About"
----
-##About Me
-My name is **Natalie Mkrtchyan**, and I graduated from *the school num 11*
-[Kane's Free Data Science Bootcamp](https://bootcamp.davidkane.info)
-
