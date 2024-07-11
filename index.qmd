@@ -1,0 +1,27 @@
+---
+title: "My First Website"
+execute: 
+  echo: false
+---
+
+
+In this website I'm going to demonstrate how the changing of the seasons on the weather. For that I'll use 4 graphs: time-temperature, time-pressure, time-humidity, and time-rain. For that I'll use the datas for 2023 and 2024.
+
+```{r setup}
+library(tidyverse)
+
+vazgen <-read.csv("vazgen.csv")
+```
+
+
+
+```{r}
+vazgen |>  
+   ggplot(aes(x =temperature )) + 
+geom_histogram(binwidth = 15) + 
+   labs(title = "Time and Temperature", 
+        x = "Temperature",
+        y = "Count")
+
+```
+

@@ -1,6 +1,8 @@
 ---
 title: "Source 2"
 author: "Natalie"
+editor: visual
+
 ---
 
 
